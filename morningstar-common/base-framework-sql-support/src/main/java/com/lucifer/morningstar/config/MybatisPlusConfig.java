@@ -20,13 +20,13 @@ import java.util.List;
  */
 @EnableTransactionManagement
 @Configuration
-@MapperScan(basePackages = "com.lucifer.morningstar.mapper*")
+@MapperScan(basePackages = "com.lucifer.morningstar.*.mapper*")
 public class MybatisPlusConfig {
 
     /**
      * 分页插件
      *
-     * @return
+     * @return PaginationInterceptor
      */
     @Bean
     public PaginationInterceptor paginationInterceptor() {
