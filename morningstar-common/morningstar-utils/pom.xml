@@ -12,5 +12,10 @@
     <artifactId>morningstar-utils</artifactId>
     <description>提供给其它服务的公共模块，内涵各种工具包</description>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 </project>
