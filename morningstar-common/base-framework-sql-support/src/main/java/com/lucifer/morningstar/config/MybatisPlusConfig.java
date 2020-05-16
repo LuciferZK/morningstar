@@ -5,5 +5,6 @@ package com.lucifer.morningstar.config;
  * date: 2020/5/16 14:52
  * description: TODO
  */
+
 public class MybatisPlusConfig {
 }
